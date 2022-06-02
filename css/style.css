@@ -216,10 +216,11 @@ li > .dropbtn {
 .program-title{
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .title-section {
-  margin-bottom: 20px
+  margin-bottom: 10px
 }
 
 .section-title {
@@ -261,7 +262,7 @@ li > .dropbtn {
 
 .text-format{
   text-align: justify;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .carrosel-bg {
   display: flex;
@@ -555,7 +556,7 @@ li > .dropbtn {
 }
 
 
-.modal-content {
+/* .modal-content {
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
@@ -573,13 +574,13 @@ li > .dropbtn {
 	        box-shadow: 1px 0px 20px 2px #333333;
 	-webkit-transition: all 0.25s ease;
 	transition: all 0.25s ease;
-}
+} */
 
-.modal-content.modal-content--show {
+/* .modal-content.modal-content--show {
 	opacity: 1;
 	visibility: visible;
 	top: 8%;
-}
+} */
 
 .modal-close {
   width: 20px;
@@ -592,20 +593,20 @@ li > .dropbtn {
   transform: rotate(360deg);
 }
 
-.modal-content .list {
+.list {
   padding: 10px 60px;
   counter-reset: conta1;
   line-height: 1.6;
 }
 
-.modal-content .list .sublist {
+.list .sublist {
   padding-left: 60px;
   counter-increment: conta1;
   counter-reset: conta2;
   list-style: none;
 }
 
-.modal-content .list .sublist li {
+.list .sublist li {
   counter-increment: conta2;
 }
 
@@ -613,7 +614,7 @@ li > .dropbtn {
   font-style: italic;
 }
 
-.modal-content .list .sublist li::before {
+ .list .sublist li::before {
   content: counter(conta1) '.' counter(conta2) '. ';
   position: absolute;
   margin-left: -50px;
@@ -653,7 +654,7 @@ li > .dropbtn {
     margin: 10px 0px;
   }
 
-  .modal-content .list {
+ .list {
     padding: 10px 20px;
   }
 }
@@ -664,9 +665,9 @@ li > .dropbtn {
   }
   
 
-  .modal-content {
+  /* .modal-content {
     max-width: 80%;
-  }
+  } */
 }
 
 @media screen and (max-width: 715px) {
@@ -686,11 +687,11 @@ li > .dropbtn {
     top: 20%;
   }
 
-  .modal-content {
+  /* .modal-content {
     max-width: 80%;
     height: 85%;
     padding: 20px 25px 40px 25px;
-  }
+  } */
 
   .section-information .container {
     max-width: 90%;
@@ -705,7 +706,7 @@ li > .dropbtn {
     margin: 10px 0px;
   }
 
-  .modal-content.modal-content--show {
+  /* .modal-content.modal-content--show {
     top: 2%;
-  }
+  } */
 }
