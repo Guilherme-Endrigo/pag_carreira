@@ -4,6 +4,10 @@
   --preto: #1a1a1a;
   --apoio: #2b2b2b;
   --verde: #00c940;
+  --cor-0: #ffff;
+  --cor-1: #000000;
+  --cor-2:#111111;
+
 
 }
 *,
@@ -659,7 +663,7 @@ li > .dropbtn {
   }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
   .main-header .menu-top {
     display: none;
   }
