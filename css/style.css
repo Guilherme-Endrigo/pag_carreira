@@ -164,7 +164,7 @@ li > .dropbtn {
 .front-page {
   width: 100%;
   height: 380px;
-  background-image: url('../img/Banner_dos_programas.png');
+  background-image: url('../img/Banner\ dos\ programas.png');
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -278,7 +278,7 @@ li > .dropbtn {
 .carrosel {
   display: flex;
   gap: 60px;
-  width: 600px;
+  /* width: 600px; */
   overflow-x: auto;
   
  
